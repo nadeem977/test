@@ -59,7 +59,7 @@ color: white;
     color: white;
 }
 .cardshadow{
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
 }
 .boxshado{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;

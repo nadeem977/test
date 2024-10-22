@@ -53,7 +53,7 @@ const Home = () => {
             <div className='grid grid-cols-1 gap-3'>
               {appointmentData?.map((item,i)=>(
                 <div key={i} className='p-4 rounded-xl bg-[#101928] text-[white] w-full h-fit'>
-                   <div className='flex items-center gap-1'>
+                   <div className='flex items-center gap-3'>
                     <img src={item?.img} alt="image" className='w-[80px] rounded-lg'/>
                    <div className='flex justify-between w-full'>
                    <div className='flex flex-col gap- items-start'>

@@ -30,7 +30,7 @@ const Sidebar = () => {
                         <div className='flex flex-col gap-3 w-full my-5'>
                             {sidebardata?.map((item, i) => (
                                 <button key={i}
-                                    className='p-2 px-5 svg text-[16px] w-full rounded-lg flex items-start hover:text-white gap-5 hover:bg-[#101928]'>
+                                    className={`p-2 ${i===0?'bg-[#101928] text-white':''} px-5 svg text-[16px] w-full rounded-lg flex items-start hover:text-white gap-5 hover:bg-[#101928]`}>
                                     <span className='w-[20px] '>{item?.icon}</span>
                                     {item?.title}
                                 </button>

@@ -11,10 +11,7 @@ import { TeamMembers } from '../assets/data'
 import TopTeam from '../components/TopTeam'
 import Tables from '../components/Tables'
 
-const Home = () => {
-
-
-
+const Home = () => { 
 
   return (
     <>

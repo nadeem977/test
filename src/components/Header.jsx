@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { RiMenu3Line } from 'react-icons/ri'
 import { AppContext } from '../context/CreateContext'
-import profileImg from "../assets/profile.png"
+import profileImg from "../assets/Profile.png"
 import collImg from "../assets/coll.png"
 import { BsBell } from "react-icons/bs";
 

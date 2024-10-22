@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: white;
+    color: black;
+    font-family: "Work Sans", sans-serif;
+}
+.Inter{
+    font-family: "Inter", sans-serif !important;
+}
+.svg:hover.svg svg{
+color: white;
+}
+.logo_span svg { 
+    width: 40px;
+}
+.svg svg{
+    font-size: 25px;
+}
+.icon svg{
+    margin-left: -10px;
+}
+.p-calendar{
+    width: 100%;
+}
+.p-datepicker{
+    background-color: #F7F7F7 !important;
+    border-radius: 30px !important;
+}
+.p-datepicker-header{
+    background-color: #F7F7F7 !important;
+    padding: 1rem;
+}
+.p-datepicker-prev{
+    position: absolute;
+    right: 60px !important;
+    background-color: white;
+    border-radius: 3px !important;
+
+}
+.p-datepicker-next{
+    background-color: white;
+    border-radius: 3px !important;
+}
+.p-datepicker-title{
+    width: fit-content;
+}
+.recharts-legend-wrapper{
+    width: 100% !important;
+    left: 0 !important;
+    top:-10px !important;
+}
+.p-datepicker-today span{
+    background: #5679FF !important;
+    color: white;
+}
+.cardshadow{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.boxshado{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+::-webkit-scrollbar-thumb {
+    width: 5px;
+    border-radius: 10px;
+    height: 5px;
+    background-color: #101928;
+
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}

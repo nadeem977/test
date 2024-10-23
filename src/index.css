@@ -48,6 +48,9 @@ color: white;
 }
 .p-datepicker-title{
     width: fit-content;
+    margin-left: inherit;
+    color: #3F3F44;
+    font-family: "Work Sans", sans-serif;
 }
 .recharts-legend-wrapper{
     width: 100% !important;

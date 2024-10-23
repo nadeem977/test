@@ -20,7 +20,8 @@ const Home = () => {
         <section className='px-4 w-full'>
           <Header />
           <div className='flex items-center justify-between gap-2 mt-10 flex-col md:flex-row'>
-            <h1 className='text-[29px] Inter text-center md:text-left'><span className='text-[#3F3F44]'>Good Morning,</span> <span className='font-bold'>Bella Famina</span> </h1>
+            <h1 className='text-[29px] Inter text-center md:text-left'>
+              <span className='text-[#3F3F44] font-[400]'>Good Morning,</span> <span className='font-bold'>Bella Famina</span> </h1>
             <button className='flex items-center justify-around text-[20px] ga-2 bg-[#101928] text-white rounded-lg px-4 w-[260px] h-[58px] '>
               <RiCalendar2Line/>
             New Appointment
@@ -30,11 +31,11 @@ const Home = () => {
             {SalseUpdate?.map((item,i)=>(
               <div key={i} className='cardshadow h-[146px] p-5 rounded-lg flex flex-col justify-between gap-2'>
               <div className='flex items-center text-[30px] font-semibold justify-between gap-2 Inter'>
-               <span>{item?.icon}</span>
+               <span className='text-[#3F3F44]'>{item?.icon}</span>
                 <span className={`${i===2?'text-[#F52525]':'text-[#007930]'}`}>{item?.rate}</span>
               </div>
-              <div className='flex items-center  text-[20px] font-semibold justify-between gap-2 Inter'>
-               <p>{item?.title}</p>
+              <div className='flex items-center  text-[20px] justify-between gap-2 Inter'>
+               <p className='text-[#3F3F44] font-semibold '>{item?.title}</p>
                <img src={item?.GPH} alt="graph"  />
               </div>
            </div>

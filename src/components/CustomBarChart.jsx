@@ -41,9 +41,9 @@ const CustomLegend = (props) => {
       <h1 className="text-[20px] font-semibold">Revenue</h1>
       <div className="flex items-start sm:items-center justify-between gap-2 w-fit flex-col-reverse sm:flex-row">
         {payload.map((entry, index) => (
-          <div key={`item-${index}`} className="flex items-center gap-5">
+          <div key={`item-${index}`} className="flex items-center gap-5 text-[#3F3F44] font-[500]">
             <div className={`w-[10px] h-[10px] rounded-full`} style={{ background: entry.color }} />
-            <span className="text-gray-700">{entry.value}</span>
+            <span >{entry.value}</span>
           </div>
         ))}
         <select className="mr-2 outline-0 border-none w-fit cursor-pointer text-[#3F3F44] bg-transparent">
